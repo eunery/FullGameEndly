@@ -14,14 +14,32 @@ using System.Windows.Shapes;
 
 namespace AssembledGame
 {
-    /// <summary>
-    /// Логика взаимодействия для Level3.xaml
-    /// </summary>
     public partial class Level3 : Window
     {
         public Level3()
         {
             InitializeComponent();
+            AnswerButton.Click += AnswerButton_Click;
+        }
+
+        private void AnswerButton_Click(object sender, RoutedEventArgs e)
+        {
+
+            ComboBoxItem selectedItem = (ComboBoxItem)cbBox.SelectedItem;
+            switch (selectedItem.Name)
+            {
+                case "First":
+                    MessageBox.Show("Ты пытался\nхехе");
+                    break;
+                case "Second":
+                    Level4 lvl4 = new Level4();
+                    lvl4.Show();
+                    LevelThree.Close();
+                    break;
+                case "Third":
+                    MessageBox.Show("Я промолчу");
+                    break;
+            }
         }
     }
 }
