@@ -11,17 +11,22 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using System.Threading;
 
 namespace AssembledGame
 {
-    /// <summary>
-    /// Логика взаимодействия для Level6.xaml
-    /// </summary>
     public partial class Level6 : Window
     {
         public Level6()
         {
             InitializeComponent();
+            RightChoose.Click += RightChoose_Click;
+        }
+        private void RightChoose_Click(object sender, RoutedEventArgs e)
+        {
+            Level7 lvl7 = new Level7();
+            lvl7.Show();
+            LevelSix.Close();
         }
     }
 }

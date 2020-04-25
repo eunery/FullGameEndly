@@ -15,7 +15,8 @@
         <Label x:Name="AskLabel"
                Content="Сколько пальцев у человека?"
                HorizontalAlignment="Center"
-               VerticalAlignment="Top"/>
+               VerticalAlignment="Top"
+               FontSize="28"/>
         <ComboBox x:Name="cbBox"
                   Grid.Row="1"
                   HorizontalAlignment="Center"

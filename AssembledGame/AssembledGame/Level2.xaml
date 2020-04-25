@@ -22,7 +22,8 @@
                  Grid.Row="1"
                  TextWrapping="Wrap"
                  VerticalAlignment="Top"
-                 Width="792" />
+                 Width="792" 
+                 FontSize="28"/>
         <Label x:Name="ErrorLabel"
                Content=""
                HorizontalAlignment="Left"

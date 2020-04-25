@@ -33,7 +33,7 @@ namespace AssembledGame
             timer.Tick += timertick;
             timer.Start();
             Button.Click += Button_Click;
-
+            ChooseLevel.Click += ChooseLevel_Click;
         }
         private void Button_Click(object sender, RoutedEventArgs e)
         {
@@ -58,6 +58,48 @@ namespace AssembledGame
             {
                 timer.Stop();
                 MessageBox.Show("Гуляй братишка");
+            }
+        }
+        private void ChooseLevel_Click(object sender, RoutedEventArgs e)
+        {
+            timer.Stop();
+            switch (tbChoose.Text)
+            {
+                case "2":
+                    Level2 lvl2 = new Level2();
+                    lvl2.Show();
+                    Level1.Close();
+                    break;
+                case "3":
+                    Level3 lvl3 = new Level3();
+                    lvl3.Show();
+                    Level1.Close();
+                    break;
+                case "4":
+                    Level4 lvl4 = new Level4();
+                    lvl4.Show();
+                    Level1.Close();
+                    break;
+                case "5":
+                    Level5 lvl5 = new Level5();
+                    lvl5.Show();
+                    Level1.Close();
+                    break;
+                case "6":
+                    Level6 lvl6 = new Level6();
+                    lvl6.Show();
+                    Level1.Close();
+                    break;
+                case "7":
+                    Level7 lvl7 = new Level7();
+                    lvl7.Show();
+                    Level1.Close();
+                    break;
+                case "8":
+                    Level8 lvl8 = new Level8();
+                    lvl8.Show();
+                    Level1.Close();
+                    break;
             }
         }
     }

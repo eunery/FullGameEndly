@@ -13,12 +13,12 @@
             <RowDefinition></RowDefinition>
         </Grid.RowDefinitions>
         <DockPanel x:Name="dpMain" Grid.Row="0" >
-            <RadioButton x:Name ="rbOne" Content="FirstPart" HorizontalAlignment="Center"/>
-            <RadioButton x:Name="rbTwo" Content="SecondPart" HorizontalAlignment="Left"/>
+            <RadioButton x:Name ="rbOne" Content="FirstPart" HorizontalAlignment="Center" FontSize="19"/>
+            <RadioButton x:Name="rbTwo" Content="SecondPart" HorizontalAlignment="Left" FontSize="19"/>
         </DockPanel>
         <StackPanel x:Name="sMain" Grid.Row="1">
             <Button x:Name="buttonAnswer" Content="Answer"/>
-            <Label Content="Год основания Питера и год рождения Гагарина. Цифры расположить в порядке возрастания." HorizontalAlignment="Center"/>
+            <Label Content="Год основания Питера и год рождения Гагарина. Цифры расположить в порядке возрастания." HorizontalAlignment="Center" FontSize="16"/>
             <Button x:Name="clearingButton" Content="Clear Answer"/>
         </StackPanel>
     </Grid>

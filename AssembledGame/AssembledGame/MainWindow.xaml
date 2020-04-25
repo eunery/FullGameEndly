@@ -14,9 +14,18 @@
                    FontSize="35">
         </TextBlock>
         <Button x:Name="Button"
-                Content=""
+                Content="Не кликай, иначе проиграешь"
                 HorizontalAlignment="Center"
-                VerticalAlignment="Center"
-                Width="75"/>
+                VerticalAlignment="Center"/>
+        <Button x:Name="ChooseLevel"
+                Content="Выбрать уровень." 
+                HorizontalAlignment="Left"
+                VerticalAlignment="Bottom"/>
+        <TextBox x:Name="tbChoose"
+                 HorizontalAlignment="Center"
+                 Height="23"
+                 TextWrapping="Wrap"
+                 VerticalAlignment="Bottom"
+                 Width="120"/>
     </Grid>
 </Window>
