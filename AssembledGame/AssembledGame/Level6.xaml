@@ -9,6 +9,7 @@
         Title="Level6" Height="450" Width="800">
     <Grid x:Name="gMain">
         <Button x:Name="buttonInvisible"
+                Content="Button"
                 HorizontalAlignment="Left"
                 VerticalAlignment="Top"
                 Width="55"
@@ -21,5 +22,21 @@
                 </ContextMenu>
             </Button.ContextMenu>
         </Button>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="35,116,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="523,258,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="391,193,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="659,313,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="643,84,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="480,42,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="149,188,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="552,183,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="464,341,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="438,116,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="70,356,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="70,42,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="1.9,-4.314"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="240,142,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="110,268,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="240,57,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="271,263,0,0" VerticalAlignment="Top" Width="75"/>
     </Grid>
 </Window>
